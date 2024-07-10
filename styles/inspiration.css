@@ -1,5 +1,33 @@
-#inspiration .info{
-    display: contents;
+#insp .info{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 80px 150px 80px 150px;
+}
+#insp .info h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+#insp .info p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+.video-container {
+    width: 100%;
+    max-width: 1000px; /* Adjust as needed */
+    margin: 50px auto; /* 50px margin on top and bottom, auto for horizontal centering */
+    padding: 32px;
+    border-radius: 15px;
+    border: 0.2px solid black;
+    box-sizing: border-box; /* Ensures padding is included in the total width and height */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 614px; /* Adjust as needed */
+    border-radius: 15px;
+    box-sizing: border-box;
 }
