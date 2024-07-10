@@ -1,0 +1,22 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 50px;
+}
+#footer h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+#footer .icon{
+    display: flex;
+}
+#footer .icon .l1{
+    margin: 0 10px;
+}
+#footer .icon .l2{
+    margin: 0 10px;
+}
+#footer .icon .l3{
+    margin: 0 10px;
+}
