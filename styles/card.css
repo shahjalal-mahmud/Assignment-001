@@ -26,6 +26,9 @@
 }
 .card-container .card-1{
     background-color: rgba(255, 76, 30, 0.05);
+    margin: 0 10px;
+    padding: 40px;
+    border-radius: 16px;
 }
 .card-container h1{
     font-size: 24px;
@@ -50,4 +53,16 @@
 }
 .card-container .learn a:hover{
     color: black;
+}
+.card-container .card-2{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 0 10px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card-container .card-3{
+    background-color: rgba(255, 223, 0, 0.05);
+    margin: 0 10px;
+    padding: 40px;
+    border-radius: 16px;
 }
