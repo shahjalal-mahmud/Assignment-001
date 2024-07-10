@@ -1,0 +1,40 @@
+#support .bg-img {
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 313px;
+    width: calc(100% - 150px);
+    border-radius: 16px;
+    margin: 80px auto;
+}
+#support .bg-img h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 64px;
+}
+#support .bg-img .info{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#support .bg-img p{
+    color: white;
+    font-size: 16px;
+    font-weight: regular;
+}
+.inline-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textbox {
+    border-radius: 8px; 
+    height: 40px; 
+    padding: 5px 10px; 
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box;
+    margin-right: 20px;
+}
