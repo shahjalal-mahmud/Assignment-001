@@ -1,0 +1,53 @@
+#card {
+    margin-top: 100px;
+}
+#card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px 0 150px;
+}
+#card .info h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+#card .info p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px ;
+}
+.card-container .card-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card-container h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px;
+}
+.card-container p{
+    font-weight: regular;
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+.card-container .learn{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    color: black;
+    padding: 10px 0;
+}
+.card-container .learn a{
+    color: black;
+}
+.card-container .learn a:hover{
+    color: black;
+}
