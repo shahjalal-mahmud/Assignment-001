@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: Azeret Mono, monospace; */
+#whyweb {
+    margin: 80px 150px;
+}
+#whyweb .top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#whyweb .top-section .title{
+    font-size: 32px;
+    font-weight: 800;
+    width: 680px;
+    text-align: center;
+}
+#whyweb .top-section p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.sec1 .info{
+    width: 50%;
+}
+.sec1 .info .title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.sec1 .info p{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 0.8;
+}
+.btn-1{
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    border-radius: 0px;
+    margin-top: 24px;
+}
